@@ -1,0 +1,165 @@
+/*Principal Body & File Style */
+body,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+}
+
+/*Heading Styles*/
+.heading {
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 40px;
+    align-items: center;
+}
+
+.heading li {
+    color: #000000DE;
+    font-size: 13px;
+    margin: 6px;
+    list-style-type: none;
+    padding-right: 15px;
+}
+
+.heading li a {
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    line-height: normal;
+    color: rgba(0, 0, 0, .87);
+
+}
+
+a:link {
+    color: rgba(0, 0, 0, .87);
+}
+
+a:visited {
+    color: rgba(0, 0, 0, .87);
+}
+
+.heading a:hover {
+    text-decoration: underline;
+}
+
+
+/*Logo styles*/
+.center {
+    text-align: -webkit-center;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2.5rem;
+    margin-top: 5rem;
+}
+
+
+.logo img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-image {
+    color: #4285f4;
+    font: 16px / 16px roboto-regular, arial, sans-serif;
+    left: 215px;
+    position: relative;
+    left: 120px;
+    top: auto;
+}
+
+
+
+/*Busqueda*/
+.text-side {
+    line-height: 22px;
+    display: flex;
+    z-index: 3;
+    position: relative;
+    min-height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 40px;
+    margin: 0 auto;
+    width: 638px;
+    max-width: 584px;
+    margin-bottom: 16px;
+    font-size: 18px;
+    outline: none;
+    padding: 5px 20px;
+    padding-right: -55px;
+}
+
+.text-side:hover {
+    box-shadow: 0px 0px 3px 1px #ddd;
+}
+
+.text-side input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    font-family: arial, sans-serif;
+}
+
+
+.main_search_bar {
+    display: flex;
+    align-items: center;
+
+}
+
+
+/*Botones de busqueda y Suerte!*/
+
+
+.btn {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.btn:hover {
+    background-color: #ddd;
+    border: 1px solid #f8f9fe;
+}
+
+/*Avanzado*/
+.header-advance {
+    color: #d93025;
+    font-size: 20px;
+    margin: 65px 0; /* Ajustado el margen vertical, el margen horizontal es 0 */
+    padding: 0 45px; /* Agregado padding en lugar de margen para controlar el espacio interior */
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+}
+
+.header-advance label{
+    line-height: 3; 
+    margin-left: 35px;
+}
