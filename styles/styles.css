@@ -150,16 +150,86 @@ a:visited {
 }
 
 /*Avanzado*/
+/*Parte superior de la pagina*/
 .header-advance {
     color: #d93025;
     font-size: 20px;
-    margin: 65px 0; /* Ajustado el margen vertical, el margen horizontal es 0 */
-    padding: 0 45px; /* Agregado padding en lugar de margen para controlar el espacio interior */
+    margin: 65px 0;
+    /* Ajustado el margen vertical, el margen horizontal es 0 */
+    padding: 0 45px;
+    /* Agregado padding en lugar de margen para controlar el espacio interior */
     border-bottom: 1px solid #ddd;
     width: 100%;
 }
 
-.header-advance label{
-    line-height: 3; 
+.header-advance label {
+    line-height: 3;
     margin-left: 35px;
 }
+
+/*Parte del medio - Contenido*/
+.body-advance {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-left: 3rem;
+    border-bottom: 1px solid #ddd; 
+    width: 100%;
+
+}
+
+
+.form-control {
+    border-radius: 0.2px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 20px;
+    padding: 1px 8px;
+    margin-bottom: 20px;
+}
+
+.label-format {
+    color: #222222;
+    font-family: arial, sans-serif;;
+    font-size: 13px;
+}
+
+.left-labels {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+    min-width: 167px;
+    width: 12%;
+    height: 42px;
+    line-height: 16px;
+
+}
+
+.right-inputs {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 13px;
+    min-width: 167px;
+    min-height: 41px;
+    width: 30%;
+}
+
+/*Boton Submit*/
+.input-box{
+    display: flex;
+    justify-content: flex-end;
+    width: 45%;
+}
+.btn-primary{
+    margin-right: 2.1rem;
+}
+
+/*Media query
+@media only screen and (max-width: 600px) {
+   .btn-primary{
+        margin-right: -7rem;
+   }
+  }
+  */

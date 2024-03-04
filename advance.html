@@ -1,18 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Avanzado</title>
-    <link rel="stylesheet" href="styles/styles.css">
-   <link rel="stylesheet"
-   href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
+
 <body>
-    
+    <div>
+        <ul class="heading">
+            <li> <a href="./index.html">Google</a></li>
+        </ul>
+
+    </div>
+
     <div class="header-advance">
         <label>Búsqueda avanzada</label>
     </div>
-    
+
+    <div class="body-advance">
+        <form action="https://google.com/search">
+            <div class="left-labels">
+                <span>Mostrar páginas que contengan...</span>
+            </div>
+
+            <div>
+                <div class="left-labels label-format">
+                    <label for="">todas estas palabras:</label>
+                </div>
+                <div class="right-inputs">
+                    <input type="text" class="form-control" name="as_q" value="">
+                </div>
+            </div>
+            <div>
+                <div class="left-labels label-format">
+                    <label for="">esta palabra o frase exactas:</label>
+                </div>
+                <div class="right-inputs">
+                    <input type="text" class="form-control" name="as_epq" value="">
+                </div>
+            </div>
+            <div>
+                <div class="left-labels label-format">
+                    <label for="">cualquiera de estas palabras:</label>
+                </div>
+                <div class="right-inputs">
+                    <input type="text" class="form-control" name="as_oq" value="">
+                </div>
+            </div>
+            <div>
+                <div class="left-labels label-format">
+                    <label for="">ninguna de estas palabras:</label>
+                </div>
+                <div class="right-inputs">
+                    <input type="text" class="form-control" name="as_eq" value="">
+                </div>
+            </div>
+
+            <div class="input-box">
+                <button type="submit" class="btn btn-primary"> Busqueda Avanzada</button>
+            </div>
+        </form>
+
+
+    </div>
+
+
+
 </body>
+
 </html>
