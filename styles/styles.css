@@ -20,7 +20,7 @@ html {
     font-size: 13px;
     margin: 6px;
     list-style-type: none;
-    font-family: arial, sans-serif;
+   
     padding-right: 15px;
 }
 
@@ -30,6 +30,7 @@ html {
     display: inline-block;
     line-height: 24px;
     vertical-align: middle;
+    font-family: arial, sans-serif;
 
 }
 
@@ -152,6 +153,46 @@ a:visited {
     border: 1px solid #dadce0;
     color: #202124;
 
+}
+
+/*Footer SIDE*/
+.footer{
+
+    background: #f2f2f2;
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0;
+    float: none;
+    line-height: normal;
+    width: 100%;
+    
+   
+   
+}
+.first-half{
+  padding: 15px 30px;
+  border-bottom: 1px solid #dadce0;
+  font-size: 15px;
+  color: var(--YLNNHc);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.second-half{
+ display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.fooA{
+    text-decoration: none;
+  color: #202124;
+  display: block;
+  padding: 15px;
+  white-space: nowrap;
+}
+.fooA:hover{
+    text-decoration: underline;
+    
 }
 
 /*Avanzado*/
