@@ -20,7 +20,7 @@ html {
     font-size: 13px;
     margin: 6px;
     list-style-type: none;
-   
+
     padding-right: 15px;
 }
 
@@ -84,6 +84,13 @@ a:visited {
     top: auto;
 }
 
+.logo-Advance {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+}
+
 
 
 /*Busqueda*/
@@ -127,6 +134,7 @@ a:visited {
 }
 
 
+
 /*Botones de busqueda y Suerte!*/
 
 
@@ -148,7 +156,7 @@ a:visited {
 }
 
 .btn:hover {
-    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
     background-color: #f8f9fa;
     border: 1px solid #dadce0;
     color: #202124;
@@ -156,7 +164,7 @@ a:visited {
 }
 
 /*Footer SIDE*/
-.footer{
+.footer {
 
     background: #f2f2f2;
     box-sizing: border-box;
@@ -165,34 +173,38 @@ a:visited {
     float: none;
     line-height: normal;
     width: 100%;
-    
-   
-   
+
+
+
 }
-.first-half{
-  padding: 15px 30px;
-  border-bottom: 1px solid #dadce0;
-  font-size: 15px;
-  color: var(--YLNNHc);
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+
+.first-half {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: var(--YLNNHc);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
-.second-half{
- display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+
+.second-half {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
-.fooA{
+
+.fooA {
     text-decoration: none;
-  color: #202124;
-  display: block;
-  padding: 15px;
-  white-space: nowrap;
+    color: #202124;
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
 }
-.fooA:hover{
+
+.fooA:hover {
     text-decoration: underline;
-    
+
 }
 
 /*Avanzado*/
@@ -217,7 +229,7 @@ a:visited {
     justify-content: flex-start;
     flex-direction: column;
     padding-left: 3rem;
-    border-bottom: 1px solid #ddd; 
+    border-bottom: 1px solid #ddd;
     width: 100%;
 
 }
@@ -235,7 +247,8 @@ a:visited {
 
 .label-format {
     color: #222222;
-    font-family: arial, sans-serif;;
+    font-family: arial, sans-serif;
+    ;
     font-size: 13px;
 }
 
@@ -261,18 +274,20 @@ a:visited {
 }
 
 /*Boton Submit*/
-.input-box{
+.input-box {
     display: flex;
     justify-content: flex-end;
     width: 45%;
 }
-.btn-primary{
+
+.btn-primary {
     margin-right: 2.1rem;
 }
 
 
 /*Responsive Side(Testing)*/
 @media (max-width: 768px) {
+
     /*Principal & Image Pages*/
     .heading {
         display: flex;
@@ -280,22 +295,28 @@ a:visited {
         padding-left: 0;
         align-items: center;
     }
+
     .heading li {
         padding-right: 10px;
     }
+
     .heading li a {
         font-size: 12px;
-        
+
     }
+
     .logo {
         margin-top: 2rem;
     }
+
     .text-side {
         width: 100%;
     }
+
     .text-side input {
         width: 100%;
     }
+
     .btn {
         margin: 11px 2px;
     }
@@ -306,23 +327,29 @@ a:visited {
         margin: 65px 0;
         padding: 0 20px;
     }
+
     .header-advance label {
         margin-left: 20px;
     }
+
     .body-advance {
         padding-left: 1rem;
     }
+
     .left-labels {
         width: 30%;
     }
+
     .right-inputs {
-        width: 70%;
+        width: 50%;
     }
-    .input-box{
+
+    .input-box {
         width: 100%;
         justify-content: center;
     }
-    .btn-primary{
+
+    .btn-primary {
         margin-right: 0;
     }
 }
