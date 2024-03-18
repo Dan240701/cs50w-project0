@@ -287,6 +287,7 @@ a:visited {
 
 
 /*Responsive Side(Testing)*/
+/* LARGE SCREENS */
 @media (max-width: 768px) {
 
     /*Principal & Image Pages*/
@@ -349,7 +350,7 @@ a:visited {
         width: 50%;
         display: flex;
         align-items: flex-end;
-        margin-left: 165px;
+        margin-left: 175px;
         padding-right: 0px;
 
     }
@@ -358,24 +359,25 @@ a:visited {
         margin-right: 0;
     }
 }
-
-
-@media (max-width: 900px) {
-    .input-box {
-        margin-left: 55px;
-        padding-right: 0px;
+/* MEDIUM SCREENS */
+@media (min-width: 1200px) {
+    .input-box{
+        margin-right: 150px;
+    
     }
     .btn-primary {
-        margin-right: 0;
+        margin-left: 0;
     }
 }
 
-@media (max-width: 1300px) {
-    .input-box {
-        margin-left: 27px;
-        padding-right: 0px;
+/* SMALL SCREENS */
+@media (max-width: 600px) {
+    .input-box{
+        margin-left: 155px;
+    
     }
     .btn-primary {
-        margin-right: 35px;
+        margin-left: 0;
     }
 }
+
