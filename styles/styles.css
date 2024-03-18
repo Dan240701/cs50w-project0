@@ -281,7 +281,8 @@ a:visited {
 }
 
 .btn-primary {
-    margin-right: 2.1rem;
+    margin-left: 0px;
+    margin-right:40px;
 }
 
 
@@ -345,11 +346,36 @@ a:visited {
     }
 
     .input-box {
-        width: 100%;
-        justify-content: center;
+        width: 50%;
+        display: flex;
+        align-items: flex-end;
+        margin-left: 165px;
+        padding-right: 0px;
+
     }
 
     .btn-primary {
         margin-right: 0;
+    }
+}
+
+
+@media (max-width: 900px) {
+    .input-box {
+        margin-left: 55px;
+        padding-right: 0px;
+    }
+    .btn-primary {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 1300px) {
+    .input-box {
+        margin-left: 27px;
+        padding-right: 0px;
+    }
+    .btn-primary {
+        margin-right: 35px;
     }
 }
